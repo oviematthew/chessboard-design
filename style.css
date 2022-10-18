@@ -146,86 +146,88 @@ body {
     color: #fff;
 }
 
+/* Mobile Responsivity */
+
 @media only screen and (max-width: 500px) {
 
 
     #chessboardbg-a{
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
     
     #chessboardbg-a:nth-child(odd) {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-b{
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-b:nth-child(even) {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-c{
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-c:nth-child(odd) {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-d{
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-d:nth-child(even) {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-e{
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-e:nth-child(odd) {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-f{
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-f:nth-child(even) {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-g{
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-g:nth-child(odd) {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-h{
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #chessboardbg-h:nth-child(even) {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
