@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Personal Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.jpg">
+    <title>Chess UI</title>
+</head>
+<body>
+
+    <section class="chessboard">
+
+         <div class="container">
+
+            <div id="chess-row" class="row">
+                <div id="chessboardbg-a" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-rook fa-2x"></i>
+                </div>
+                <div id="chessboardbg-a" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-knight fa-2x"></i>
+                </div>
+                <div id="chessboardbg-a" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-bishop fa-2x"></i>
+                </div>
+                <div id="chessboardbg-a" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-king fa-2x"></i>
+                </div>
+                <div id="chessboardbg-a" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-queen fa-2x"></i>
+                </div>
+                <div id="chessboardbg-a" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-bishop fa-2x"></i>
+                </div>
+                <div id="chessboardbg-a" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-knight fa-2x"></i>
+                </div>
+                <div id="chessboardbg-a" class="col-xs-1.5">
+                    <i id="icons-blck" id="icons" class="fa-solid fa-chess-rook fa-2x"></i>
+                </div>
+            </div>
+
+
+            <div id="chess-row" class="row">
+                <div id="chessboardbg-b" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-b" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-b" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-b" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-b" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-b" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-b" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-b" class="col-xs-1.5">
+                    <i id="icons-blck" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+            </div>
+
+            <div id="chess-row" class="row">
+                <div id="chessboardbg-c" class="col-xs-1.5"></div>
+                <div id="chessboardbg-c" class="col-xs-1.5"></div>
+                <div id="chessboardbg-c" class="col-xs-1.5"></div>
+                <div id="chessboardbg-c" class="col-xs-1.5"></div>
+                <div id="chessboardbg-c" class="col-xs-1.5"></div>
+                <div id="chessboardbg-c" class="col-xs-1.5"></div>
+                <div id="chessboardbg-c" class="col-xs-1.5"></div>
+                <div id="chessboardbg-c" class="col-xs-1.5"></div>
+            </div>
+
+            <div id="chess-row" class="row">
+                <div id="chessboardbg-d" class="col-xs-1.5"></div>
+                <div id="chessboardbg-d" class="col-xs-1.5"></div>
+                <div id="chessboardbg-d" class="col-xs-1.5"></div>
+                <div id="chessboardbg-d" class="col-xs-1.5"></div>
+                <div id="chessboardbg-d" class="col-xs-1.5"></div>
+                <div id="chessboardbg-d" class="col-xs-1.5"></div>
+                <div id="chessboardbg-d" class="col-xs-1.5"></div>
+                <div id="chessboardbg-d" class="col-xs-1.5"></div>
+            </div>
+
+            <div id="chess-row" class="row">
+                <div id="chessboardbg-e" class="col-xs-1.5"></div>
+                <div id="chessboardbg-e" class="col-xs-1.5"></div>
+                <div id="chessboardbg-e" class="col-xs-1.5"></div>
+                <div id="chessboardbg-e" class="col-xs-1.5"></div>
+                <div id="chessboardbg-e" class="col-xs-1.5"></div>
+                <div id="chessboardbg-e" class="col-xs-1.5"></div>
+                <div id="chessboardbg-e" class="col-xs-1.5"></div>
+                <div id="chessboardbg-e" class="col-xs-1.5"></div>
+            </div>
+
+            <div id="chess-row" class="row">
+                <div id="chessboardbg-f" class="col-xs-1.5"></div>
+                <div id="chessboardbg-f" class="col-xs-1.5"></div>
+                <div id="chessboardbg-f" class="col-xs-1.5"></div>
+                <div id="chessboardbg-f" class="col-xs-1.5"></div>
+                <div id="chessboardbg-f" class="col-xs-1.5"></div>
+                <div id="chessboardbg-f" class="col-xs-1.5"></div>
+                <div id="chessboardbg-f" class="col-xs-1.5"></div>
+                <div id="chessboardbg-f" class="col-xs-1.5"></div>
+            </div>
+
+
+            <div id="chess-row" class="row">
+                <div id="chessboardbg-g" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-g" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-g" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-g" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-g" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-g" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-g" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+                <div id="chessboardbg-g" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-pawn fa-2x"></i>
+                </div>
+            </div>
+
+
+            <div id="chess-row" class="row">
+                <div id="chessboardbg-h" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-rook fa-2x"></i>
+                </div>
+                <div id="chessboardbg-h" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-knight fa-2x"></i>
+                </div>
+                <div id="chessboardbg-h" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-bishop fa-2x"></i>
+                </div>
+                <div id="chessboardbg-h" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-king fa-2x"></i>
+                </div>
+                <div id="chessboardbg-h" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-queen fa-2x"></i>
+                </div>
+                <div id="chessboardbg-h" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-bishop fa-2x"></i>
+                </div>
+                <div id="chessboardbg-h" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-knight fa-2x"></i>
+                </div>
+                <div id="chessboardbg-h" class="col-xs-1.5">
+                    <i id="icons-wht" class="fa-solid fa-chess-rook fa-2x"></i>
+                </div>
+            </div>
+
+         </div>
+    </section>
+    
+<!-- Font-awesome Kit -->
+<script src="https://kit.fontawesome.com/344589b924.js" crossorigin="anonymous"></script>
+</body>
+</html>
