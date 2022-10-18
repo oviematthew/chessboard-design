@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(187, 179, 197);
+    overflow-y: hidden;
 }
 
 .chessboard {
@@ -231,3 +232,4 @@ body {
         height: 2.5rem;
     }
 }
+
